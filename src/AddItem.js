@@ -12,26 +12,30 @@ export default function AddItem(props){
         type:type,
         brand:brand,
         });
+        setName("");
+        setPrice(0);
+        setType("");
+        setBrand("");
     };
     
     return(
         <div>
             <h2>Add an Item</h2>
             <form>
-                <label htmlfor="name-field">Name:</label>
+                <label htmlFor="name-field">Name:</label>
                 <input 
                 id="name-field" 
                 type="text" 
                 value={name} 
                 onChange={(e) => setName(e.target.value)}
                 />
-                <label htmlfor="price-field">Name:</label>
+                <label htmlFor="price-field">Price:</label>
                 <input id="price-field" type="number" value={price} onChange={(e) => setPrice(e.target.value)}/>
-                <label htmlfor="type-field">Name:</label>
+                <label htmlFor="type-field">Type:</label>
                 <input id="type-field" type="text" value={type} onChange={(e) => setType(e.target.value)}/>
-                <label htmlfor="brand-field">Name:</label>
+                <label htmlFor="brand-field">Brand:</label>
                 <input id="brand-field" type="text" value={brand} onChange={(e) => setBrand(e.target.value)} />
-                <button type="button" onClick={addItemButtonPressed} >Search</button>
+                <button type="button" onClick={addItemButtonPressed} >Add Item</button>
         
             </form>
         </div>

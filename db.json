@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "name": "tanay",
+      "price": 5
+    },
+    {
+      "name": "tanay",
+      "price": "3",
+      "type": "asd",
+      "brand": "xxxx",
+      "id": 1
+    },
+    {
+      "name": "asdad",
+      "price": "3",
+      "type": "qweqw",
+      "brand": "ffff",
+      "id": 2
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 3
+    },
+    {
+      "name": "aaa",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 4
+    },
+    {
+      "name": "ssdsd",
+      "price": "2",
+      "type": "qee",
+      "brand": "zzzz",
+      "id": 5
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 7
+    }
+  ]
+}
