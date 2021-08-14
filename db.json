@@ -1,22 +1,17 @@
 {
   "items": [
     {
-      "id": 0,
-      "name": "tanay",
-      "price": 5
-    },
-    {
-      "name": "tanay",
-      "price": "3",
-      "type": "asd",
-      "brand": "xxxx",
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
       "id": 1
     },
     {
-      "name": "asdad",
-      "price": "3",
-      "type": "qweqw",
-      "brand": "ffff",
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
       "id": 2
     },
     {
@@ -27,17 +22,17 @@
       "id": 3
     },
     {
-      "name": "aaa",
+      "name": "",
       "price": 0,
       "type": "",
       "brand": "",
       "id": 4
     },
     {
-      "name": "ssdsd",
-      "price": "2",
-      "type": "qee",
-      "brand": "zzzz",
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
       "id": 5
     },
     {
@@ -45,7 +40,140 @@
       "price": 0,
       "type": "",
       "brand": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
       "id": 7
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 12
+    },
+    {
+      "name": "sss",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 18
+    },
+    {
+      "name": "ssdsd",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 22
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 24
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 25
+    },
+    {
+      "name": "",
+      "price": 0,
+      "type": "",
+      "brand": "",
+      "id": 26
     }
   ]
 }

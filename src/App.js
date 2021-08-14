@@ -12,12 +12,12 @@ function App() {
   const [data, setData] = useState({items : []});
   //const [data, setData] = useState({});
 
-  useEffect(()=>{
-    console.log("use eefeect");
-    return ()=> {
-      console.log("cleaning");
-    };
-  },[data,filters]);
+  // useEffect(()=>{
+  //   console.log("use eefeect");
+  //   return ()=> {
+  //     console.log("cleaning");
+  //   };
+  // },[data,filters]);
 
   const updateFilters= (searchParams) => {
     setFilters(searchParams);
@@ -32,7 +32,7 @@ function App() {
         if (response.ok){
           const idx = items.indexOf(item);
           items.splice(idx,1);
-          setData({item: items});
+          setData({items: items});
         }
       }
     );

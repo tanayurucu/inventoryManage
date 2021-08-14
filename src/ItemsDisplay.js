@@ -1,7 +1,7 @@
 function ItemsDisplay({items,deleteItem}){
     const showItem= (item) =>{
         return(
-            <tr>
+            <tr key={item.id}>
                 <th scope="row"> {item.id}</th>
                     <td>name: {item.name}</td>
                     <td>price: {item.price}</td>
@@ -12,7 +12,7 @@ function ItemsDisplay({items,deleteItem}){
         );
     };
     return(
-        <div className="container"> <div classname="row"><h2>Item List</h2></div> 
+        <div className="container"> <div className="row"><h2>Item List</h2></div> 
             <div className="row">
                 <table className="table table-striped">
                     <thead><tr>
@@ -24,7 +24,8 @@ function ItemsDisplay({items,deleteItem}){
                         <th scope="col">delete</th>
                         
                         </tr></thead>
-                    <tbody>{items.map(showItem)} </tbody>
+                    <tbody>{items.map(showItem)}</tbody>
+                   
                 </table>
             </div>
         </div>
